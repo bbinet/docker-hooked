@@ -1,8 +1,8 @@
 docker-hooked
 =============
 
-Hooked (Run command on GitHub and BitBucket POST request hooks) docker
-container.
+[Hooked](https://github.com/bbinet/docker-hooked) (run command on GitHub and
+BitBucket POST request hooks) docker container.
 
 
 Build
