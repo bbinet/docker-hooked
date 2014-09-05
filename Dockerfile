@@ -13,4 +13,4 @@ VOLUME ["/config"]
 
 EXPOSE 80
 
-CMD ["hooked", "/config/hooked.cfg]
+CMD ["hooked", "/config/hooked.cfg"]
