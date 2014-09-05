@@ -31,6 +31,6 @@ For example:
     $ docker pull bbinet/hooked
 
     $ docker run --name hooked \
-        -v hooked.cfg:/config/hooked.cfg:ro \
+        -v /home/hooked/config:/config \
         -p 80:80 \
         bbinet/hooked
