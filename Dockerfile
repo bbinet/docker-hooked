@@ -4,8 +4,8 @@ MAINTAINER Bruno Binet <bruno.binet@helioslite.com>
 
 RUN apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
-  python-pip python-cherrypy3
-RUN pip install hooked==0.1
+  python-pip
+RUN pip install waitress hooked==0.1
 
 ADD hooked.cfg /etc/hooked.cfg
 
