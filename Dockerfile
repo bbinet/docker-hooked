@@ -5,7 +5,7 @@ MAINTAINER Bruno Binet <bruno.binet@helioslite.com>
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get install -yq --no-install-recommends python-pip
-RUN pip install waitress hooked==0.1
+RUN pip install waitress hooked==0.2
 
 ADD hooked.cfg /etc/hooked.cfg
 
